@@ -4,6 +4,10 @@
 
 This is a simple web application that generates random passwords. It provides a user-friendly interface to create secure passwords and allows you to copy them to your clipboard for easy use.
 
+## Preview
+
+You can view a live preview of this project [here](https://sufianadnan.github.io/PasswordGenerator/).
+
 ## Features
 
 - Generate random passwords with various character types.
@@ -29,3 +33,8 @@ This is a simple web application that generates random passwords. It provides a 
 - `style.css`: The CSS file for styling the application.
 - `script.js`: The JavaScript file containing the logic for password generation and copying.
 - `images/`: A directory containing image assets used in the application.
+
+## Screenshots
+
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
