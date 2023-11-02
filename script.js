@@ -36,3 +36,18 @@ function copyPassword(){
         });
     }
 }
+
+const palettes = ['palette1', 'palette2', 'palette3'];
+
+function getRandomPalette() {
+    const randomIndex = Math.floor(Math.random() * palettes.length);
+    return palettes[randomIndex];
+}
+
+function applyRandomPalette() {
+    const body = document.body;
+    const randomPalette = getRandomPalette();
+    body.classList.add(randomPalette);
+}
+
+applyRandomPalette();
